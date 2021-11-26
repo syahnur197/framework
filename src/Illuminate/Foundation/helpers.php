@@ -140,7 +140,7 @@ if (! function_exists('app_storage_path')) {
      * @param  string  $path
      * @return string
      */
-    function storage_path($path = '')
+    function app_storage_path($path = '')
     {
         return storage_path('app/' . $path);
     }
